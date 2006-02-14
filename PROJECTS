@@ -1,6 +1,6 @@
 List of things to be done.
 
-- port 1080 web display is blank for most browsers unless they are a long
-way from the metaserver.  [rec.games.netrek, "Server List", May 1999]
-[fixed by forking off a different process to handle web requests -c.v]
+- add a blacklist of servers that are either not to be listed, or
+where the player count provided should be ignored or minimised.
 
+- implement server keys for public listing.

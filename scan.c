@@ -4,7 +4,7 @@
  * MetaServerII
  * Copyright (c) 1993 by Andy McFadden
  * 
- * $Id: scan.c,v 1.1 2006/02/14 06:43:11 unbelver Exp $
+ * $Id: scan.c,v 1.2 2006/02/14 07:21:31 quozl Exp $
  * 
  */
 #include <stdio.h>
@@ -1030,6 +1030,13 @@ uread(int usock)
   if (p == NULL) goto truncated;
   srvbuf.player_count = atoi(p);
   if (srvbuf.player_count == 0) srvbuf.status = SS_EMPTY;
+
+  /* anti-spam */
+  if (srvbuf.player_count > 1) {
+    if (!strcmp(srvbuf.hostname, "godfather.mob.net")) srvbuf.player_count = 1;
+    if (!strcmp(srvbuf.hostname, "netrek.kilohm.net")) srvbuf.player_count = 1;
+    if (!strcmp(srvbuf.hostname, "203.200.79.130")) return;
+  }
 
   /* number of free slots */
   p = strtok(NULL, "\n");

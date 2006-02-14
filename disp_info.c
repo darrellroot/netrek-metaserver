@@ -4,7 +4,7 @@
  * MetaServerII
  * Copyright (c) 1993 by Andy McFadden
  *
- * $Id: disp_info.c,v 1.1 2006/02/14 06:43:11 unbelver Exp $
+ * $Id: disp_info.c,v 1.2 2006/02/14 07:21:31 quozl Exp $
  *
  */
 #include <stdio.h>
@@ -13,6 +13,7 @@
 #include <errno.h>
 #include "meta.h"
 
+static int send_info(int idx, char *file);
 
 /*
  * display the info file

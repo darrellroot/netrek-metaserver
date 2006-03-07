@@ -4,7 +4,7 @@
  * MetaServerII
  * Copyright (c) 1993 by Andy McFadden
  * 
- * $Id: disp_web.c,v 1.1 2006/02/14 06:43:11 unbelver Exp $
+ * $Id: disp_web.c,v 1.2 2006/03/07 11:53:49 quozl Exp $
  * 
  */
 #include <stdio.h>
@@ -64,8 +64,8 @@ int display_web(idx, port_idx)
 
   /* print page */
   Uprintf(idx, "\
-<html><title>MetaServer II Server List</title>\n\
-<body><center><h1>MetaServer II Server List</h1></center>\n");
+<html><head><title>Netrek Metaserver</title></head>\n\
+<body><center><h1>Netrek Metaserver</h1></center>\n");
 
   Uprintf(idx, "<center><table border=2 cellpadding=6><tr>\
 <td><h4>Server Host</h4></td>\
@@ -159,8 +159,8 @@ int display_web(idx, port_idx)
   Uprintf(idx, "retry periods in minutes are ");
   Uprintf(idx, "down:%d empty:%d open:%d queue:%d)</i><p>\n\n",
 	  wait_noconn, wait_empty, wait_open, wait_queue);
-  Uprintf(idx, "<p>Link to <a href=\"http://metaserver.netrek.org:1080/\">US metaserver</a><p>\n");
-  Uprintf(idx, "<p>Link to <a href=\"http://metaserver.eu.netrek.org:1080/\">European metaserver</a></body></html>\n");
+  Uprintf(idx, "<p>See also <a href=\"http://metaserver.us.netrek.org:1080/\">US #1 metaserver</a><p>\n");
+  Uprintf(idx, "<p>See also <a href=\"http://metaserver2.us.netrek.org:1080/\">US #2 metaserver</a></body></html>\n");
 
   return(0);
 }

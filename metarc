@@ -1,7 +1,7 @@
 #
 # Sample configuration for MetaServerII
 #
-# $Id: metarc,v 1.1 2006/02/14 06:43:11 unbelver Exp $
+# $Id: metarc,v 1.2 2006/08/22 15:53:46 modemhero Exp $
 #
 
 # ports to listen on for user connections
@@ -72,12 +72,7 @@ servers:
 # server name ----------------- IP address ---- Port -- Notes (optional) ------
 #
 # BRONCO/VANILLA Servers (B):
-
-B RSAnetrek.unh.edu		0.0.0.0		2592 20 New Hampshire.
-B RSAsoda.csua.berkeley.edu	0.0.0.0		2592 20 Berkeley, CA
-B RSAspamburger.openface.ca	0.0.0.0		2592 20 Montreal, Canada
-B RSAse.netrek.org              0.0.0.0		2592 20 Sweden
-B RSAkirk.hal-pc.org		0.0.0.0		2592 20
+#
 
 # 
 # CHAOS Servers (C):
@@ -86,16 +81,10 @@ B RSAkirk.hal-pc.org		0.0.0.0		2592 20
 #
 # HOCKEY Servers (H):
 #
-# H hockey.psychosis.net             140.186.18.198  2592    36
 
 #
 # PARADISE Servers (P):
 #
-P bode.ee.ualberta.ca		0.0.0.0		2592 20 Alberta, Canada.
-P tanya.ucsd.edu 		0.0.0.0		2592 20 San Diego, Ca.
-P paradise.games.uk.demon.net   0.0.0.0         2592 32
-P europa.informatik.uni-frankfurt.de 141.2.20.4 2592 32
-P paradise-lost.kulua.org       0.0.0.0         2592 32
 
 #
 # DOGFIGHT/BASEPRACTICE Servers (F):

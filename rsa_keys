@@ -1194,6 +1194,12 @@ NetrekXP-Mod-RSA-Key-Win32:ct=NetrekXP Mod:cr=keyos@keyos.org:\
    :gk=b160145c4205bba8815db0a908fcac9b99a0303ee44c204469374109e09bb782:\
    :pk=8b0f3d3f1b1b8528d86545d3be9d8900f2e3130cb52248df9a5ec63ff9a15e11:
 #
+NetrekXP-2006-RSA-Key-Win32:ct=NetrekXP 2006:cr=williamb@its.caltech.edu:\
+   :cd=May 2006:ar=Win32:cl=inl,standard2:\
+   :cm=NetrekXP 2006 for Windows 9x/NT/2000/XP:\
+   :gk=2f31c6a223b64464d57781d36e2cc4c1102b093915ac2429653d3ba264f2639c:\
+   :pk=d3c838d81f8969e6e6e3363af317636ed72f17ec5d69e77fa75d9cdb8a99132a:
+#
 #
 # Temp development keys
 #

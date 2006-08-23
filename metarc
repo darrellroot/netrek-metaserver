@@ -1,7 +1,7 @@
 #
 # Sample configuration for MetaServerII
 #
-# $Id: metarc,v 1.2 2006/08/22 15:53:46 modemhero Exp $
+# $Id: metarc,v 1.3 2006/08/23 01:51:02 modemhero Exp $
 #
 
 # ports to listen on for user connections
@@ -73,6 +73,7 @@ servers:
 #
 # BRONCO/VANILLA Servers (B):
 #
+B RSAcontinuum.us.netrek.org		0.0.0.0		2592 20 Minnesota
 
 # 
 # CHAOS Servers (C):
